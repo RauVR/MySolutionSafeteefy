@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.11" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Guardians\Domain\Repositories" />
+      <Folder Include="Guardians\Interfaces" />
+      <Folder Include="Guardians\Mapping" />
+      <Folder Include="Guardians\Resources" />
+      <Folder Include="Guardians\Services" />
+      <Folder Include="Shared\Domain\Repositories" />
+      <Folder Include="Shared\Interfaces" />
+      <Folder Include="Shared\Mapping" />
+      <Folder Include="Shared\Resources" />
+      <Folder Include="Shared\Services" />
+      <Folder Include="Urgencies\Domain\Repositories" />
+      <Folder Include="Urgencies\Interfaces" />
+      <Folder Include="Urgencies\Mapping" />
+      <Folder Include="Urgencies\Resources" />
+      <Folder Include="Urgencies\Services" />
+    </ItemGroup>
+
+</Project>
