@@ -7,15 +7,13 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="AutoMapper" Version="10.0.0" />
         <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.11" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
     </ItemGroup>
 
     <ItemGroup>
       <Folder Include="Guardians\Domain\Repositories" />
-      <Folder Include="Guardians\Interfaces" />
-      <Folder Include="Guardians\Mapping" />
-      <Folder Include="Guardians\Resources" />
       <Folder Include="Guardians\Services" />
       <Folder Include="Shared\Domain\Repositories" />
       <Folder Include="Shared\Interfaces" />

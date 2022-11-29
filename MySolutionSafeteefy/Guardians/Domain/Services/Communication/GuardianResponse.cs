@@ -13,3 +13,6 @@ public class GuardianResponse: BaseResponse<Guardian>  //Implement missing membe
     {
     }
 }
+
+//Luego vamos a Guardians.Domain.Services y creamos el IGuardianService , lo
+//mismo hacemos para los otros bounded

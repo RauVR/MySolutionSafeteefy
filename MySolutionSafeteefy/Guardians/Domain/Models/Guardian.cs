@@ -13,3 +13,5 @@ public class Guardian
     public string Adress { get; set; }
     public List<Urgency> UrgenciesList { get; set; } = new List<Urgency>();
 }
+
+//De aqui nos vamos a Shared.Domain.Services.Communication y creamos el BaseResponse

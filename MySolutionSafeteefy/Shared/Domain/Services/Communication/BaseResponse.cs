@@ -1,5 +1,7 @@
 namespace MySolutionSafeteefy.Shared.Domain.Services.Communication;
 
+//Esto solo copia y pega
+
 public abstract class BaseResponse<T>
 {
     protected BaseResponse(string message)
@@ -17,5 +19,5 @@ public abstract class BaseResponse<T>
     public T Resource { get; set; }
 }
 
-
-// ->
+// De aqui vamos al Guardians.Domain.Services.Communication y creamos el GuardianResponse,
+// lo mismo hacemos para los demas bounded context

@@ -1,0 +1,13 @@
+#Recursos a Instalar
+
+Entity Framework Core
+AutoMapper 1.0.0 o mas actual
+
+
+
+
+
+
+
+ 
+ 
